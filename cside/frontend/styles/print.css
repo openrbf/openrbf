@@ -1,0 +1,95 @@
+/*!
+ * Project:   PBF (print)
+ * Date:      2014/02/17
+/* ---------------------------------------- */
+
+* { margin: 0; padding: 0; }
+
+html { font-size: 100.01%; }
+body { background: #fff; font-size: 62.5%; }
+
+body, textarea, input, select, option, button { color: black; font-family: Calibri,Lucida Grande,Helvetica Neue,Helvetica,Arial,sans-serif; line-height: 1.5; }
+li, dt, dd, p, figure, th, td, caption, pre { font-size: 1.5em; } /*---*/ li *, li p, li li, dt *, dd *, p *, figure *, th *, td * { font-size: 1em; }
+div, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, ul, ol, dl, p, table, pre, h1, h2, h3, h4, h5, h6 { display: block; margin: 0 0 15px; } :last-child { margin-bottom: 0 !important; } .last-child { margin-bottom: 0 !important; }
+
+/*! layout -------- */
+
+.root-a {  }
+ .root-a > header { margin: 0 0 15px; padding: 0 0 15px; border-bottom: 1px solid #ccc; }
+  .root-a > header .logo { font: bold 2.4em Cambria,Georgia,serif;  }
+   .root-a > header .logo a { color: #000; text-decoration: none; }
+    .root-a > header .logo a img { display: block; }
+  .root-a > header .skips, .root-a > header .skips ul { display: none; }
+  .root-a > header .nav { display: none; }
+ .root-a > section { }
+  .root-a > section a:after { content: " (" attr(href) ")"; color: #555; font-size: 0.8em; font-style: italic; }
+  .root-a > section a[href^="#"]:after { content: ""; } 
+ .root-a > footer { margin: 15px 0 0; padding: 15px 0 0; border-top: 1px solid #ccc; }
+  .root-a > footer nav, .root-a > footer ul { display: none; }
+  .root-a > footer .logos-a, .root-a > footer .partners-a { display: none; }
+  .root-a > footer p.copys { font-size: 11px; }
+
+/*! containers ---- */
+
+aside, nav,
+p.action,
+.bttn-indicators-a,
+.button-a, .button-b, .button-c,
+.info-a,
+.locations-a,
+.map-a,
+p.more, .more-a { display: none; }
+
+.ftable-a .body { display: table; }
+ .ftable-a .body .tr { display: table-row; }
+  .ftable-a .body .tr .td { display: table-cell; padding: 5px; border: 1px solid #d9d9d9; }
+
+.gallery-a { display: none; }
+
+.quality-b { }
+ .quality-b > .item { display: table; }
+  .quality-b > .item > * { display: table-cell; }
+  .quality-b > .item > h4, .quality-b > .item > figure { display: none; }
+ .quality-b .table { display: table; width: 100%; }
+  .quality-b .table .head, .quality-b .table .item { display: table-row; }
+   .quality-b .table p { display: table-cell; padding: 5px; }
+
+ .results-a .items { margin: 0 -1% 40px; font-size: 0; letter-spacing: -.35em; }
+  .results-a .items .item { display: inline-block; width: 31.33%; margin: 10px 1% 0; font-size: 10px; letter-spacing: 0; vertical-align: top; }
+   .results-a .items .item a { text-decoration: none; }
+   .results-a .items .item a:after { display: none; }
+   .results-a .items .item * { margin-top: 0; margin-bottom: 3px; }
+
+.table-a { }
+ .table-a .overlay { display: none; }
+
+/*! helpers ------- */
+
+.offset { display: none; }
+
+/*! defaults ------ */
+
+form { }
+ button { overflow: visible; padding: 0 10px; }
+
+table { display: table; border-collapse: collapse; border-spacing: 0; }
+ table th, table td { padding: 5px 10px; border: 1px solid #ccc; }
+
+h1, h2, h3, h4, h5, h6 { margin: 20px 0 5px; color: #000; font-family: Cambria,Georgia,serif; line-height: 1.1; }
+h1 { margin-top: 0; font-size: 2.4em; }
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.5em; text-transform: uppercase; }
+h6 { font-size: 1.4em; text-transform: uppercase; }
+
+ul, ol, dd, blockquote { padding-left: 30px; }
+ ul ul, ol ol, ul ol, ol ul { margin-bottom: 0; }
+
+a { color: #09f; text-decoration: underline; }
+
+img { max-width: 100% !important; height: auto !important; border-width: 0; image-rendering: optimizeQuality; -ms-interpolation-mode: bicubic; }
+
+pre { font-family: Consolas,Monaco,Courier New,monospace; white-space: pre-wrap; }
+
+hr, div.hr { overflow: hidden; width: 100%; height: 1px; margin: 15px 0; border: none; border-top: 1px solid #eee; background: none; font-size: 0; } div.hr * { display: none; }

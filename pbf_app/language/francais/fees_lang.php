@@ -1,0 +1,35 @@
+<?php
+$lang['fees_month'] = 'Mois';
+$lang['fees_quarter'] = 'Trimestre';
+$lang['fees_year'] = 'Annee';
+$lang['fees_fees_set'] = 'Series';
+$lang['fees_wizard_prev'] = 'Precedent';
+$lang['fees_wizard_next'] = 'Suivant';
+$lang['fees_wizard_save'] = 'Sauvegarder';
+$lang['fees_wizard_form_entity_class'] = 'Class d\'entite:';
+$lang['fees_wizard_form_entity_type'] = 'Type d\'entite:';
+$lang['fees_wizard_form_entity_group'] = 'Groupe d\'entite:';
+$lang['fees_wizard_form_entity_status'] = 'Statut de l\'entite:';
+$lang['fees_wizard_form_entity'] = 'Entite:';
+$lang['fees_wizard_form_period'] = 'Periode:';
+$lang['fees_wizard_form_file_type'] = 'Type de fichier:';
+$lang['fees_wizard_form_title'] = 'Fixation des tarifs speciaux - Etape';
+$lang['fees_wizard_list_order'] = '#';
+$lang['fees_wizard_list_indicator'] = 'Indicateur';
+$lang['fees_wizard_list_tarif'] = 'Tarif';
+$lang['fees_wizard_list_exclusion'] = 'Exclusion';
+$lang['fees_wizard_step_of_steps'] = 'de';
+$lang['fees_save_success'] = 'Le tarif est sauvegardee avec succes';
+$lang['fees_save_error'] = 'Erreur de sauvegarde du tarif';
+$lang['fees_copy_success'] = 'Le tarif est copie avec success';
+$lang['fees_copy_error'] = 'Erreur pendant la copie du tarif';
+$lang['fees_for'] = 'Tarif/Score qualite pour';
+$lang['fees_region'] = 'Region ou applicable';
+$lang['fees_delete_success'] = 'Tarif efface avec succes';
+$lang['fees_delete_error'] = 'Erreur pendant la suppression du tarif';
+$lang['fees_process'] = 'Création ou mise à jour de tarif';
+$lang['fees_create_copy'] = 'Création ou copie d\'un tarif';
+$lang['fees_wizard_form_copy'] = 'Fixation des tarif -  Copie';
+$lang['fees_wizard_form_num_categories'] = 'Nombre de categories:';
+$lang['fees_wizard_form_step_perc'] = 'Pourcentage du pas:';
+?>

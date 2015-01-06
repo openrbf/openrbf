@@ -1,0 +1,20 @@
+<?php
+$lang['alert_position'] = 'Position';
+$lang['alert_order'] = 'Order';
+$lang['alert_actif'] = 'Activated';
+$lang['form_helper_order'] = 'Order';
+$lang['form_helper_name'] = 'Helper name';
+$lang['form_helper_position'] = 'Helper position';
+$lang['form_helper_activate'] = 'Activate';
+$lang['helpers_title'] = 'Helpers';
+$lang['form_groups'] = 'Groups';
+$lang['form_helper_gauche'] = 'Left';
+$lang['form_helper_droite'] = 'Right';
+$lang['frm_helper_title'] = 'Title';
+$lang['list_helper_title'] = 'Name';
+$lang['list_helpers_G'] = 'Left';
+$lang['list_helpers_D'] = 'Right';
+$lang['helper_save_error'] = 'Helper not saved';
+$lang['helper_save_success'] = 'Helper saved successfully';
+$lang['success_delete_msg'] = 'Helper deleted successfully';
+$lang['helper_delete_error'] = 'Helper not deleted';

@@ -1,0 +1,135 @@
+
+.sqlsimplemenu {
+	position: absolute;
+	width: 200px;
+	z-index: 99999;
+	border: solid 1px #CCCCCC;
+	background: #F7F7F7;
+	padding: 0px;
+	margin: 0px;
+	display: none;
+	font-family: "Lucida Grande",Verdana,sans-serif;
+	font-size: 12px;
+	
+}
+
+
+
+.sqlbuildercolumn {
+	border-bottom: solid 1px #CCC;
+	padding: 15px;
+	margin: 1px;	
+}
+
+
+.sqlcolumn, .sqlwhere, .sqlsort,.sqlgroup {
+	padding-left: 10px;
+	padding-bottom: 5px;
+	height:27px !important;
+	
+}
+
+
+.sqlbuilderwhere {
+	border-bottom: solid 1px #CCC;
+	padding: 15px;
+	margin: 1px;	
+}
+
+
+.sqlbuildersort {
+	border-bottom: solid 1px #CCC;
+	padding: 15px;
+	margin: 1px;	
+}
+
+.sqlbuildergroup {
+	border-bottom: solid 1px #CCC;
+	padding: 15px;
+	margin: 1px;	
+}
+
+
+
+
+
+ul.clickmenu                         { list-style: none;position: relative; width: 200px; background: #F7F7F7; margin: 0; padding: 0;}
+ul.clickmenu li                      { font-weight: normal; /*float: left; zoom: 1;*/ background: #F7F7F7; list-style: none; height:23px; vertical-align:middle; margin: 0; padding:0;}
+ul.clickmenu a:hover		         { color: #000; }
+ul.clickmenu a:active                { color: #ffa500; }
+ul.clickmenu li a                    { display: block;  border-bottom: 0px solid #ccc; color: #222; 
+                                       /*height:20px;*/
+                                       padding:2px;
+                                       text-decoration: none;}
+ul.clickmenu li input{    border-top-style: solid;
+    border-top-width: 1px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    width: 25px;
+}
+ul.clickmenu li.hover,
+ul.clickmenu li:hover                { background: #cccccc; color: black; position: relative; }
+ul.clickmenu li.hover a              { color: black; }
+
+
+ul.clickmenu ul 						{ width: 200px; visibility: hidden; position:absolute;border: solid 1px #CCCCCC; margin: 0; padding: 0; top: 0; left: 200px; }
+ul.clickmenu ul li 					{ font-weight: normal; background: #f6f6f6; color: #000; 
+									  border-bottom: 0px solid #ccc; float: none; 
+									  /*height:20px;*/
+                                       padding:2px;
+									  list-style: none; }
+									  
+                                    /* IE 6 & 7 Needs Inline Block */
+ul.clickmenu ul li a					{ border-right: none; width: 100%; display: inline-block; } 
+
+
+ul.clickmenu ul ul 					{ left: 100%; top: 0;}
+ul.clickmenu li:hover > ul 			{ visibility: visible; }
+
+/*simpletreeview*/
+ul.treeview {
+	font-family: "Lucida Grande",Verdana,sans-serif;
+	font-size: 11px;
+	line-height: 18px;
+	padding: 0px;
+	margin: 0px;	
+}
+ul.treeview ul {
+	padding:0;
+}
+
+ul.treeview li {
+	list-style: none;
+	padding: 0px;
+	padding-left: 20px;
+	margin: 0px;
+	white-space: nowrap;
+	border:solid 0px #fff; /* else ie doesn't draw the icons */
+}
+
+ul.treeview a {
+	color: #333;
+	text-decoration: none;
+	display: block;
+	padding: 0px 2px;
+}
+
+ul.treeview a:hover {
+	background: #BDF;
+}
+
+/* Core Styles */
+.treeview li.list { background: url(list.png) left top no-repeat; 	cursor: pointer;}
+.treeview li.item { background: url(item.png) left top no-repeat; }
+.treeview li.expanded { background: url(expanded.png) left top no-repeat; }
+.treeview ul{display:none}
+
+/*
+.treeview ul, ul li ul , ul li ul li ul{display:none}
+ul {color:#333}
+ul li ul{color:#666}
+ul li ul li ul{color:#999;display:none;}
+
+*/

@@ -1,0 +1,26 @@
+<?php
+$lang['budget_title'] = 'Budgets';
+$lang['budget_district'] = 'District';
+$lang['budget_entity_class'] = 'Class d\'entité';
+$lang['budget_entity_type'] = 'Type d\'entité';
+$lang['budget_entity_quarter'] = 'Trimestre';
+$lang['budget_entity_year'] = 'Année';
+$lang['budget_value'] = 'Montant Disponible';
+$lang['budget_frm_title'] = 'Budget';
+$lang['budget_frm_entity_class'] = 'Class d\'entité:';
+$lang['budget_frm_entity_type'] = 'Type d\'entité:';
+$lang['budget_frm_budget_value'] = 'Montant Disponible:';
+$lang['budget_frm_budget_period'] = 'Période du budget';
+$lang['budget_frm_budget_quarter'] = 'Trimestre:';
+$lang['budget_frm_budget_year'] = 'Année:';
+$lang['budget_frm_budget_month'] = 'Mois:';
+$lang['budget_frm_budget_fosa'] = 'Entité:';
+$lang['budget_frm_budget_region'] = 'Région';
+$lang['annual_budget_before'] = 'Budget annuel non encore saisie';
+$lang['annual_budget_overload'] = 'Budget annuel dépassé';
+$lang['annual_budget_exist'] = 'Budget annuel déjà saisi';
+$lang['mensual_budget_exist'] = 'Budget mensuel déjà saisi';
+$lang['budget_budget_year'] = 'Year';
+$lang['budget_budget_month'] = 'Mois';
+$lang['budget_line_annuel'] = 'Budget annuel';
+$lang['budget_info_icon'] = 'Budget trimestriel';

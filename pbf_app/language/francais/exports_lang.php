@@ -1,0 +1,29 @@
+<?php
+$lang['exports_title'] = 'Exportation - Fichiers de données FBR de routine';
+$lang['exports_title_file_name'] = 'Nom du fichier';
+$lang['exports_title_file_size'] = 'Taille';
+$lang['exports_year'] = 'annee de l export';
+$lang['exports_title_file_date'] = 'Date';
+$lang['exports_frm_title'] = 'Configuration de l\'exportation des données';
+$lang['exports_frm_export_definition'] = 'Configuration de l\'exportation des données';
+$lang['exports_frm_export_title'] = 'Title de la configuration:';
+$lang['exports_frm_export_filetype'] = 'Type de fichier de données:';
+$lang['exports_frm_export_datatype'] = 'Type de données:';
+$lang['exports_conf_save_success'] = 'La configuration est sauvegardée avec succes';
+$lang['exports_conf_save_error'] = 'Erreur de sauvegarde de la configuration';
+$lang['exports_conf_delete_success'] = 'La configuration est supprimée avec succes';
+$lang['exports_conf_delete_error'] = 'Erreur de suppression de la configuration';
+
+$lang['lang_ky_entity_sis_code'] = 'Matricule';
+$lang['lang_ky_region'] = 'Region';
+$lang['lang_ky_district'] = 'District';
+$lang['lang_ky_formation_sanitaire'] = 'Formation Sanitaire';
+$lang['lang_ky_month'] = 'Mois';
+$lang['lang_ky_year'] = 'Annee';
+$lang['lang_ky_pop_cible'] = 'Pop. Cible';
+$lang['export_success'] = 'Export de données effectué';
+$lang['export_created'] = 'Export crée';
+$lang['export_list_user'] = 'Liste des utilisateurs';
+$lang['user'] = 'Utilisateur';
+$lang['access_zone'] = 'Zones d\'accès';
+$lang['group'] = 'Groupe';

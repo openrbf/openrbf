@@ -1,0 +1,355 @@
+
+#site-info {
+    padding-left: 30px;
+}
+
+#footer .footer-upper {
+    border-top : 2px solid #ddd;
+    text-align: center;
+    }
+    
+    #footer .footer-upper .panel-heading {
+        padding-left: 60px;
+        transition-property: background;
+        transition-duration: 1s;
+    }
+    
+    #footer .footer-upper .panel-heading:hover{
+        background: white;
+    }
+    
+    .partener-text {
+        display:inline-block;
+        color: #666;
+        font-weight: bold
+    }
+    .partener-logo {
+        transition:All 1s ease;
+        
+    }
+    
+    .partener-logo:hover {
+        transform: rotate(0deg) scale(1.02) skew(1deg) translate(0px);
+        -webkit-transform: rotate(0deg) scale(1.02) skew(1deg) translate(0px);
+        -moz-transform: rotate(0deg) scale(1.02) skew(1deg) translate(0px);
+        -o-transform: rotate(0deg) scale(1.02) skew(1deg) translate(0px);
+        -ms-transform: rotate(0deg) scale(1.02) skew(1deg) translate(0px);
+    }
+
+#footer .footer-bottom {
+    border-top : 2px solid white;
+    background: black;
+    color : white;
+    padding-top : 10px;
+    padding-bottom: 10px;
+}
+
+
+#logo img {
+    margin-top: 10px;
+}
+
+#pagination{
+text-align:right
+}
+
+#pagination a, #pagination strong {
+    border: 1px solid #CAC9C9;
+    color: #292929;
+    font-size: 13px;
+    padding: 4px 7px;
+    text-decoration: none;
+}
+#pagination strong, #pagination a:hover {
+    font-weight: normal;
+    background: #cac9C9;
+}
+
+#colophon #footer-base a {
+    color: #efefef;
+    font-style: italic;
+    letter-spacing: 0px;
+}
+
+.link-list-inline li{
+    float: left;
+    padding-right: 4px;
+}
+
+.link-list-inline li:after {
+    content: "  |"
+}
+
+.link-list-inline li:last-child:after {
+    content: "";
+}
+
+.news-article article {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.news-article article:first-child {
+    margin-top: 10px;
+    
+}
+.news-article article:last-child{
+    border-bottom: none;
+    margin-top : 20px;
+    
+}
+
+#map_canvas {
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+/*.link-list-inline li a:hover {
+    font-style: italic;
+    text-decoration: none;
+    border-bottom: 2px solid #d83f28;
+}*/
+
+.map-info-window{
+    text-align: center;
+}
+
+.map-info-window img {
+    width: 240px;
+    height: 128px;
+    margin: auto;
+    text-align: center;
+}
+
+#tooltip {
+    z-index : 10000;
+    border : 2px solid #d83f28;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius : 4px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#tooltip-content {
+    display : block;
+    padding : 4px;    
+    color: black;
+  
+}
+
+.table_footer {
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+    color: #000;
+}
+
+.top table {
+    border : none;
+    background: white;
+}
+
+.top fieldset {
+    border : 1px solid black;
+    background: white;
+}
+
+.top legend {
+    margin-left: 20px;
+}
+
+.top table th {
+    background: none;
+    background-color: white;
+    text-decoration: none;
+    font-weight: normal;
+    border-bottom: 0;
+    
+}
+
+.real-resul-row {
+    min-height: 70px;
+}
+
+.real-resul-row .float {
+    float: left;
+    height: 60px;
+}
+
+.real-resul-row .right {
+    margin-left: 70px;
+}
+
+.ui-accordion .ui-accordion-content{ overflow:hidden !important; }
+
+.icone-evolution {
+    
+}
+
+#realtime-result h3 {
+    margin-top: 10px;
+}
+
+#realtime-result .result-row {
+    border-bottom : 2px solid #ddd;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top : 10px;
+    margin-bottom: 10px;
+}
+
+#realtime-result .header-row {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.panel-default h3 {
+    margin-top : 10px;
+}
+
+.news-body img{
+   margin-top: 20px; 
+}
+
+.news-content {
+    cursor: pointer;
+}
+
+.sublist-unstyled ul li {
+    list-style: none;
+}
+
+.right-align-table tr>td, .right-align-table tr>th {
+    text-align: right;
+    padding-right: 20px !important;
+}
+
+.right-align-table tr td:first-child,.right-align-table tr th:first-child {
+    
+    text-align: left;
+}
+
+.upper-case {
+    text-transform: uppercase;
+}
+
+.realtime-result-header {
+    margin-left: -16px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.up-spacer {
+    margin-top: 10px;
+}
+
+.down-spacer {
+    margin-bottom: 10px;
+}
+
+.left-spacer {
+    margin-left: 10px;
+}
+
+.rigt-spacer {
+    margin-right: 10px;
+}
+
+.form-signin {
+  max-width: 460px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 8px;
+  margin: 10px 0 10px 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.alert-errormsg {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#f2dede), to(#e7c3c3));
+    background-image: -webkit-linear-gradient(top, #f2dede, 0%, #e7c3c3, 100%);
+    background-image: -moz-linear-gradient(top, #f2dede 0%, #e7c3c3 100%);
+    background-image: linear-gradient(to bottom, #f2dede 0%, #e7c3c3 100%);
+    background-repeat: repeat-x;
+    border-color: #dca7a7;
+    progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2dede',endColorstr='#ffe7c3c3',GradientType=0);
+}
+
+.img-realtime-result {
+    width: 64px;
+    height: 64px;
+}
+
+#realtime-result .result-row:last-child {
+    border-bottom: none;
+}
+
+#site-title,#sub-title {
+    white-space: nowrap;
+}
+
+#sub-title {
+    text-transform: uppercase;
+}
+
+#logo {
+    
+}
+
+.text-small {
+    font-size: 12px;
+}
+
+.col-evolution{
+    text-align: center;
+    white-space: nowrap;
+}
+
+.nowarp {
+    white-space: nowrap;
+}
+
+.icone-evolution {
+    margin-left: 50%;
+}
+
+.pourcentage {
+    margin-top: 0px !important;
+}
+
+.result-header {
+    margin-left: -40px;
+    font-size: 1.4em;
+    text-align: center;
+}
+#partenaires {
+    display: inline;
+    display: inline-block;
+}

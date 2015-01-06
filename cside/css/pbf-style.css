@@ -1,0 +1,109 @@
+
+/* 
+****************************************
+******  TOP Header by Laurent MIKO  ****
+***************** [START] **************
+*/
+
+#topheader{
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+#fbrlogo{
+margin-bottom:4px;
+margin-right:8px;
+}
+
+.floatleft{
+float:left;
+}
+
+#topheader h1 {
+  -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    color: #555555;
+    font-weight: normal;
+  /*  text-shadow: 2px 2px 0 rgba(125, 125, 125, 0.25); */
+	font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 8px;
+	font-family: "Arial";
+	margin-bottom:0 !important;
+	}
+
+#topheader h3 {
+	font-weight: normal;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #555555;
+    margin-left: 0;
+    margin-right: 0;
+    text-transform: uppercase;
+/*	text-shadow: 2px 2px 0 rgba(125, 125, 125, 0.25); */
+	
+	}
+
+
+.clearall{
+clear:both;
+}
+
+.left {
+    float: left;
+}
+
+#progress-bar {
+   width: 50%;
+   margin : auto;
+   text-align: center;
+   margin-top : 10px;
+}
+.ui-progressbar {
+    position: relative;
+}
+
+.progress-label {
+position: absolute;
+left: 50%;
+top: 4px;
+font-weight: bold;
+text-shadow: 1px 1px 0 #fff;
+}
+
+ .ui-multiselect {
+    padding: 7px;
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
+    border: #BBBBBB solid 1px !important;
+    background: rgb(222,222,222) !important;
+    font-weight: normal !important;
+    text-shadow: none !important;
+    color: black !important;
+    font-size: 12px !important;
+    text-transform: none !important;
+    
+}
+
+.ui-multiselect span:last-child {
+   padding-left: 7px !important;
+    display: inline-block !important;
+    margin-top: -5px !important; 
+}
+
+.ui-multiselect-checkboxes label input {
+    width: 20px !important;
+}
+  
+
+/* 
+***************** [END] ****************
+******  TOP Header by Laurent MIKO  ****
+****************************************
+*/
+
+

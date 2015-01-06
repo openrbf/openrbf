@@ -1,0 +1,47 @@
+/* 
+    Document   : custom
+    Created on : Feb 21, 2014, 3:30:30 PM
+    Author     : Olivier
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* Remove red arrow on map */
+.locations-a .filter h4:before {
+    background: #3b3b3b !important;
+    width: 0;
+}
+.locations-a .filter h4 a {
+    color: #fff !important;
+}
+
+.locations-a .filter h4.light-red:before {
+    background: #3b3b3b !important;
+}
+/* Remove red arrow on map */
+
+.featured-a .doc-item-a {
+    min-height: 300px !important;
+}
+
+.root-a > header .logo a span {
+    font-size: 20px !important;
+}
+
+#tooltip {
+    z-index : 10000;
+    border : 2px solid #d83f28;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius : 4px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#tooltip-content {
+    display : block;
+    padding : 4px;    
+    color: black;
+  
+}
+

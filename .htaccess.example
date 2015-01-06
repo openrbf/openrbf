@@ -1,0 +1,8 @@
+SetEnv PHP_VER 5_4
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+RewriteRule ^(.*)$ /[path to openrbf project]/openrbf/index.php?/$1 [L]
+
