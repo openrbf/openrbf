@@ -3,7 +3,7 @@
 
 ### Tech
 
-OpenRBF uses the following technology:
+OpenRBF is maintained by Bluesquare and uses the following technology:
 
 * PHP
 * MySql
@@ -49,7 +49,8 @@ pwd: demo
 
 ### Development
 
-Want to contribute? Great!
+Want to contribute? 
+Contact Bluesquare (www.bluesquare.org)
 
 
 ### Todo's
@@ -62,4 +63,4 @@ License
 opensource
 
 
-**Free Software, Hell Yeah!**
+
